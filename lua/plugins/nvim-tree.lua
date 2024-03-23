@@ -21,6 +21,7 @@ return {
 
       -- Toggle file explorer
       vim.keymap.set('n', '<leader>e', api.tree.toggle, { desc = 'Toggle File [E]xplorer' })
+      vim.keymap.set('n', 'v', api.node.open.vertical, { desc = 'Open file [V] vertical' })
     end,
   },
 }
