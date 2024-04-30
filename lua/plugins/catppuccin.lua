@@ -8,15 +8,9 @@ return {
     -- end,
     config = function()
       require('catppuccin').setup {
-        integrations = {
-          cmp = true,
-          gitsigns = true,
-          nvimtree = true,
-          treesitter = true,
-          mini = {
-            enabled = true,
-            indentscope_color = '',
-          },
+        styles = {
+          comments = {},
+          conditionals = {},
         },
       }
     end,
